@@ -1,0 +1,648 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>341</width>
+    <height>476</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Calculator</string>
+  </property>
+  <property name="windowIcon">
+   <iconset>
+    <normaloff>../../Downloads/mathematics-operation-addition-manic-math-multiplication-and-division-flashcard-math-games-mathematics.jpg</normaloff>../../Downloads/mathematics-operation-addition-manic-math-multiplication-and-division-flashcard-math-games-mathematics.jpg</iconset>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(15, 15, 15);</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QGridLayout" name="gridLayout_2">
+    <item row="0" column="0">
+     <layout class="QGridLayout" name="gridLayout">
+      <item row="3" column="1">
+       <widget class="QPushButton" name="push_5">
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="MinimumExpanding" vsizetype="Preferred">
+          <horstretch>50</horstretch>
+          <verstretch>10</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QPushButton{
+font: 75 20pt &quot;MS Shell Dlg 2&quot;;
+	
+	color: rgb(255, 255, 255);
+border-radius:30px;
+}
+
+QPushButton:hover{
+background-color: rgb(52, 157, 77);
+}
+
+QPushBotton{
+color: rgb(185, 185, 185);
+}</string>
+        </property>
+        <property name="text">
+         <string>5</string>
+        </property>
+        <property name="shortcut">
+         <string>5</string>
+        </property>
+       </widget>
+      </item>
+      <item row="2" column="2">
+       <widget class="QPushButton" name="push_3">
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="MinimumExpanding" vsizetype="Preferred">
+          <horstretch>50</horstretch>
+          <verstretch>10</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QPushButton{
+font: 75 20pt &quot;MS Shell Dlg 2&quot;;
+	
+	color: rgb(255, 255, 255);
+border-radius:30px;
+}
+
+QPushButton:hover{
+background-color: rgb(52, 157, 77);
+}
+
+QPushBotton{
+color: rgb(185, 185, 185);
+}</string>
+        </property>
+        <property name="text">
+         <string>3</string>
+        </property>
+        <property name="shortcut">
+         <string>3</string>
+        </property>
+       </widget>
+      </item>
+      <item row="5" column="3">
+       <widget class="QPushButton" name="push_equal">
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="MinimumExpanding" vsizetype="Preferred">
+          <horstretch>50</horstretch>
+          <verstretch>10</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QPushButton{
+font: 75 36pt &quot;MS Shell Dlg 2&quot;;
+	color: rgb(255, 255, 127);
+border-radius:30px;
+}
+
+QPushButton:hover{
+color: rgb(255, 255, 255);
+	background-color: rgb(230, 230, 0);
+}
+
+QPushBotton{
+color: rgb(232, 77, 0);
+}</string>
+        </property>
+        <property name="text">
+         <string>=</string>
+        </property>
+        <property name="shortcut">
+         <string>=</string>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="0" colspan="2">
+       <widget class="QPushButton" name="push_clear">
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="MinimumExpanding" vsizetype="Preferred">
+          <horstretch>50</horstretch>
+          <verstretch>10</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QPushButton{
+font: 75 20pt &quot;MS Shell Dlg 2&quot;;
+	
+	
+	color: rgb(255, 255, 255);
+border-radius:30px;
+}
+
+QPushButton:hover{
+background-color: rgb(185, 0, 0);
+}
+
+QPushBotton:pressed{
+
+	
+	color: rgb(27, 0, 0);
+}</string>
+        </property>
+        <property name="text">
+         <string>Clear</string>
+        </property>
+        <property name="shortcut">
+         <string/>
+        </property>
+       </widget>
+      </item>
+      <item row="2" column="3">
+       <widget class="QPushButton" name="push_min">
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="MinimumExpanding" vsizetype="Preferred">
+          <horstretch>50</horstretch>
+          <verstretch>10</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QPushButton{
+font: 75 36pt &quot;MS Shell Dlg 2&quot;;
+	color: rgb(255, 255, 127);
+border-radius:30px;
+}
+
+QPushButton:hover{
+color: rgb(255, 255, 255);
+	background-color: rgb(230, 230, 0);
+}
+
+QPushBotton{
+color: rgb(232, 77, 0);
+}</string>
+        </property>
+        <property name="text">
+         <string>-</string>
+        </property>
+        <property name="shortcut">
+         <string>-</string>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="2">
+       <widget class="QPushButton" name="push_del">
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="MinimumExpanding" vsizetype="Preferred">
+          <horstretch>50</horstretch>
+          <verstretch>10</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QPushButton{
+font: 75 20pt &quot;MS Shell Dlg 2&quot;;
+	
+	
+	color: rgb(255, 255, 255);
+border-radius:30px;
+}
+
+QPushButton:hover{
+background-color: rgb(185, 0, 0);
+}
+
+QPushBotton:pressed{
+
+	
+	color: rgb(27, 0, 0);
+}</string>
+        </property>
+        <property name="text">
+         <string>Del</string>
+        </property>
+        <property name="shortcut">
+         <string>Backspace</string>
+        </property>
+       </widget>
+      </item>
+      <item row="5" column="2">
+       <widget class="QPushButton" name="push_point">
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="MinimumExpanding" vsizetype="Preferred">
+          <horstretch>50</horstretch>
+          <verstretch>10</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QPushButton{
+font: 75 20pt &quot;MS Shell Dlg 2&quot;;
+	
+	color: rgb(255, 255, 255);
+border-radius:30px;
+}
+
+QPushButton:hover{
+background-color: rgb(52, 157, 77);
+}
+
+QPushBotton{
+color: rgb(185, 185, 185);
+}</string>
+        </property>
+        <property name="text">
+         <string>.</string>
+        </property>
+        <property name="shortcut">
+         <string>.</string>
+        </property>
+       </widget>
+      </item>
+      <item row="2" column="0">
+       <widget class="QPushButton" name="push_1">
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="MinimumExpanding" vsizetype="Preferred">
+          <horstretch>50</horstretch>
+          <verstretch>10</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QPushButton{
+font: 75 20pt &quot;MS Shell Dlg 2&quot;;
+	
+	color: rgb(255, 255, 255);
+border-radius:30px;
+}
+
+QPushButton:hover{
+background-color: rgb(52, 157, 77);
+}
+
+QPushBotton{
+color: rgb(185, 185, 185);
+}</string>
+        </property>
+        <property name="text">
+         <string>1</string>
+        </property>
+        <property name="shortcut">
+         <string>1</string>
+        </property>
+       </widget>
+      </item>
+      <item row="2" column="1">
+       <widget class="QPushButton" name="push_2">
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="MinimumExpanding" vsizetype="Preferred">
+          <horstretch>50</horstretch>
+          <verstretch>10</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QPushButton{
+font: 75 20pt &quot;MS Shell Dlg 2&quot;;
+	
+	color: rgb(255, 255, 255);
+border-radius:30px;
+}
+
+QPushButton:hover{
+background-color: rgb(52, 157, 77);
+}
+
+QPushBotton:pressed{
+color: rgb(185, 185, 185);
+}</string>
+        </property>
+        <property name="text">
+         <string>2</string>
+        </property>
+        <property name="shortcut">
+         <string>2</string>
+        </property>
+       </widget>
+      </item>
+      <item row="3" column="3">
+       <widget class="QPushButton" name="push_mult">
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="MinimumExpanding" vsizetype="Preferred">
+          <horstretch>50</horstretch>
+          <verstretch>10</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QPushButton{
+font: 75 36pt &quot;MS Shell Dlg 2&quot;;
+	color: rgb(255, 255, 127);
+border-radius:30px;
+}
+
+QPushButton:hover{
+color: rgb(255, 255, 255);
+	background-color: rgb(230, 230, 0);
+}
+
+QPushBotton{
+color: rgb(232, 77, 0);
+}</string>
+        </property>
+        <property name="text">
+         <string>x</string>
+        </property>
+        <property name="shortcut">
+         <string>*</string>
+        </property>
+       </widget>
+      </item>
+      <item row="4" column="2">
+       <widget class="QPushButton" name="push_9">
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="MinimumExpanding" vsizetype="Preferred">
+          <horstretch>50</horstretch>
+          <verstretch>10</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QPushButton{
+font: 75 20pt &quot;MS Shell Dlg 2&quot;;
+	
+	color: rgb(255, 255, 255);
+border-radius:30px;
+}
+
+QPushButton:hover{
+background-color: rgb(52, 157, 77);
+}
+
+QPushBotton{
+color: rgb(185, 185, 185);
+}</string>
+        </property>
+        <property name="text">
+         <string>9</string>
+        </property>
+        <property name="shortcut">
+         <string>9</string>
+        </property>
+       </widget>
+      </item>
+      <item row="4" column="1">
+       <widget class="QPushButton" name="push_8">
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="MinimumExpanding" vsizetype="Preferred">
+          <horstretch>50</horstretch>
+          <verstretch>10</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QPushButton{
+font: 75 20pt &quot;MS Shell Dlg 2&quot;;
+	
+	color: rgb(255, 255, 255);
+border-radius:30px;
+}
+
+QPushButton:hover{
+background-color: rgb(52, 157, 77);
+}
+
+QPushBotton{
+color: rgb(185, 185, 185);
+}</string>
+        </property>
+        <property name="text">
+         <string>8</string>
+        </property>
+        <property name="shortcut">
+         <string>8</string>
+        </property>
+       </widget>
+      </item>
+      <item row="3" column="0">
+       <widget class="QPushButton" name="push_4">
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="MinimumExpanding" vsizetype="Preferred">
+          <horstretch>50</horstretch>
+          <verstretch>10</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QPushButton{
+font: 75 20pt &quot;MS Shell Dlg 2&quot;;
+	
+	color: rgb(255, 255, 255);
+border-radius:30px;
+}
+
+QPushButton:hover{
+background-color: rgb(52, 157, 77);
+}
+
+QPushBotton{
+color: rgb(185, 185, 185);
+}</string>
+        </property>
+        <property name="text">
+         <string>4</string>
+        </property>
+        <property name="shortcut">
+         <string>4</string>
+        </property>
+       </widget>
+      </item>
+      <item row="5" column="0" colspan="2">
+       <widget class="QPushButton" name="push_zero">
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="MinimumExpanding" vsizetype="Preferred">
+          <horstretch>50</horstretch>
+          <verstretch>10</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QPushButton{
+font: 75 20pt &quot;MS Shell Dlg 2&quot;;
+	
+	color: rgb(255, 255, 255);
+border-radius:30px;
+}
+
+QPushButton:hover{
+background-color: rgb(52, 157, 77);
+}
+
+QPushBotton{
+color: rgb(185, 185, 185);
+}</string>
+        </property>
+        <property name="text">
+         <string>0</string>
+        </property>
+        <property name="shortcut">
+         <string>0</string>
+        </property>
+       </widget>
+      </item>
+      <item row="3" column="2">
+       <widget class="QPushButton" name="push_6">
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="MinimumExpanding" vsizetype="Preferred">
+          <horstretch>50</horstretch>
+          <verstretch>10</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QPushButton{
+font: 75 20pt &quot;MS Shell Dlg 2&quot;;
+	
+	color: rgb(255, 255, 255);
+border-radius:30px;
+}
+
+QPushButton:hover{
+background-color: rgb(52, 157, 77);
+}
+
+QPushBotton{
+color: rgb(185, 185, 185);
+}</string>
+        </property>
+        <property name="text">
+         <string>6</string>
+        </property>
+        <property name="shortcut">
+         <string>6</string>
+        </property>
+       </widget>
+      </item>
+      <item row="4" column="3">
+       <widget class="QPushButton" name="push_div">
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="MinimumExpanding" vsizetype="Preferred">
+          <horstretch>50</horstretch>
+          <verstretch>10</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QPushButton{
+font: 75 36pt &quot;MS Shell Dlg 2&quot;;
+	color: rgb(255, 255, 127);
+border-radius:30px;
+}
+
+QPushButton:hover{
+color: rgb(255, 255, 255);
+	background-color: rgb(230, 230, 0);
+}
+
+QPushBotton{
+color: rgb(232, 77, 0);
+}</string>
+        </property>
+        <property name="text">
+         <string>÷</string>
+        </property>
+        <property name="shortcut">
+         <string>/</string>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="3">
+       <widget class="QPushButton" name="push_plus">
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="MinimumExpanding" vsizetype="Preferred">
+          <horstretch>50</horstretch>
+          <verstretch>10</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QPushButton{
+font: 75 36pt &quot;MS Shell Dlg 2&quot;;
+	color: rgb(255, 255, 127);
+border-radius:30px;
+}
+
+QPushButton:hover{
+color: rgb(255, 255, 255);
+	background-color: rgb(230, 230, 0);
+}
+
+QPushBotton:pressed{
+color: rgb(232, 77, 0);
+}</string>
+        </property>
+        <property name="text">
+         <string>+</string>
+        </property>
+        <property name="shortcut">
+         <string>+</string>
+        </property>
+       </widget>
+      </item>
+      <item row="4" column="0">
+       <widget class="QPushButton" name="push_7">
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="MinimumExpanding" vsizetype="Preferred">
+          <horstretch>50</horstretch>
+          <verstretch>10</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QPushButton{
+font: 75 20pt &quot;MS Shell Dlg 2&quot;;
+	
+	color: rgb(255, 255, 255);
+border-radius:30px;
+}
+
+QPushButton:hover{
+background-color: rgb(52, 157, 77);
+}
+
+QPushBotton{
+color: rgb(185, 185, 185);
+}</string>
+        </property>
+        <property name="text">
+         <string>7</string>
+        </property>
+        <property name="shortcut">
+         <string>7</string>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="0" colspan="4">
+       <widget class="QLabel" name="label">
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="MinimumExpanding" vsizetype="Preferred">
+          <horstretch>50</horstretch>
+          <verstretch>13</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">font: 75 36pt &quot;MS Shell Dlg 2&quot;;
+
+color: rgb(255, 255, 255);</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>341</width>
+     <height>21</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
